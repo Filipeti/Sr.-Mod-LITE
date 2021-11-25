@@ -17,29 +17,25 @@ module.exports = {
       .setTitle(`Informazioni del server "${name}"`)
       .setThumbnail(icon)
       .addFields({
-        name: ":arrow_right:Continente:",
-        value: region,
+        name: ":arrow_right:Owner:",
+        value: owner.user.tag,
       },
       {
         name: ":arrow_right:ID del server:",
         value: guild.id,
       },
       {
-        name: ":arrow_right:Owner:",
-        value: owner.user.tag,
-      },
-     {
         name: ":arrow_right:Potenziamenti:",
         value: guild.premiumTier,
-     },
-     {
+      },
+      {
          name: ":arrow_right:Livello potenziamento:",
          value: guild.premiumSubscriptionCount,
-     },
-     {
+      },
+      {
          name: ":arrow_right:Ruolo principale:",
          value: guild.roles.highest,
-     },
+      },
       {
         name: ":arrow_right:Membri:",
         value: memberCount,
