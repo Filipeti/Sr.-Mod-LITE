@@ -1,0 +1,17 @@
+{
+  "name": "supermoderationlite",
+  "version": "1.0.2",
+  "description": "npm start",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filipeti",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "moment": "^2.29.1",
+    "ms": "^2.1.3"
+  }
+}
