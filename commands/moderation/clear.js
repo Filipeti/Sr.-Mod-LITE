@@ -3,7 +3,7 @@ module.exports ={
     permissions: 'ADMINISTRATOR',
     permissionError: 'Non hai il permesso di utilizzare questo comando.',
     description: 'Elimina i messaggi',
-    usage: "m!clear",
+    usage: "--clear",
     
     callback: (message, args) => {
         const amount = parseInt(args[0]) + 1;
