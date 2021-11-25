@@ -83,7 +83,7 @@ module.exports = (client, commandOptions) => {
       ) {
 
         for (const permission of permissions) {
-          if (!member.permission.has(permission)) {
+          if (!member.hasPermission(permission)) {
             message.reply(permissionError)
             return
           }
